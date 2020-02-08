@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"appengine/datastore"
-	"appengine/memcache"
+	"google.golang.org/appengine/datastore"
+	"google.golang.org/appengine/memcache"
 
 	mpg "github.com/mjibson/goread/_third_party/github.com/MiniProfiler/go/miniprofiler_gae"
 	"github.com/mjibson/goread/_third_party/github.com/mjibson/goon"

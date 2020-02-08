@@ -42,11 +42,11 @@ import (
 	"github.com/mjibson/goread/rss"
 	"github.com/mjibson/goread/sanitizer"
 
-	"appengine"
-	"appengine/memcache"
-	"appengine/taskqueue"
-	"appengine/urlfetch"
-	"appengine/user"
+	"google.golang.org/appengine"
+	"google.golang.org/appengine/memcache"
+	"google.golang.org/appengine/taskqueue"
+	"google.golang.org/appengine/urlfetch"
+	"google.golang.org/appengine/user"
 )
 
 func serveError(w http.ResponseWriter, err error) {

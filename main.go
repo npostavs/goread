@@ -32,8 +32,8 @@ import (
 	"github.com/mjibson/goread/_third_party/github.com/gorilla/mux"
 	"github.com/mjibson/goread/_third_party/github.com/mjibson/goon"
 
-	"appengine"
-	"appengine/datastore"
+	"google.golang.org/appengine"
+	"google.golang.org/appengine/datastore"
 )
 
 var (

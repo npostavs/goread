@@ -27,10 +27,10 @@ import (
 
 	"github.com/mjibson/goread/_third_party/github.com/mjibson/goon"
 
-	"appengine"
-	"appengine/datastore"
-	"appengine/taskqueue"
-	"appengine/user"
+	"google.golang.org/appengine"
+	"google.golang.org/appengine/datastore"
+	"google.golang.org/appengine/taskqueue"
+	"google.golang.org/appengine/user"
 )
 
 type User struct {
